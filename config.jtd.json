@@ -1,0 +1,26 @@
+{
+  "elements": {
+    "ref": "rule"
+  },
+  "definitions": {
+    "rule": {
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "destination": {
+          "type": "string"
+        },
+        "cron": {
+          "type": "string",
+          "metadata": {
+            "cronExpression": true
+          }
+        },
+        "move": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

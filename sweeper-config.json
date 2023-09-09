@@ -1,0 +1,8 @@
+[
+    {
+        "source": "~/Desktop/Screenshot 2023-09*.png",
+        "destination": "~/Desktop/Screenshots/2023-09",
+        "cron": "* * * * *",
+        "move": false
+    }
+]
